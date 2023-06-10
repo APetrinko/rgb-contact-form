@@ -1,0 +1,126 @@
+@import '../../styles/variables';
+
+.blur-circle-left {
+  position: absolute;
+  width: 399.01px;
+  height: 400.31px;
+  left: -31.33px;
+  bottom: 489.69px;
+
+  background: #332F65;
+  opacity: 0.5;
+  filter: blur(103.131px);
+  transform: rotate(9.41deg);
+  z-index: -1;
+}
+
+.blur-circle-right {
+  position: absolute;
+  width: 790.65px;
+  height: 793.23px;
+  left: 1068.67px;
+  bottom: 342.77px;
+
+  background: #332F65;
+  opacity: 0.8;
+  filter: blur(103.131px);
+  transform: rotate(9.41deg);
+  z-index: -1;
+}
+
+.contact {
+  margin-top: 116px;
+}
+
+.information {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 257px;
+
+  &__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 119px;
+    height: 32px;
+    background-color: #fff;
+    background: #4252D1;
+    border-radius: 5px;
+
+    &-logo {
+      width: 17px;
+      height: 17px;
+      margin-right: 6.9px;
+    }
+
+    &-text {
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+
+  &__destcription {
+    display: flex;
+    justify-content: flex-start;
+
+    &-title {
+      display: flex;
+      justify-content: flex-start;
+      color: $secondary-color;
+      text-transform: uppercase;
+      font-size: 77px;
+    }
+
+    &-subtitle {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 20.46px;
+      font-family: "Gilroy-Medium";
+      font-weight: 600;
+      font-size: 22px;
+    }
+
+    &-text {
+      font-family: "Gilroy-Regular";
+      font-size: 16px;
+      width: 419px;
+      text-align: left;
+      line-height: 26.64px;
+    }
+  }
+}
+
+.rotate-span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF3459;
+  width: 106px;
+  height: 38.69px;
+  border-radius: 10px;
+  transform: rotate(-3.51deg);
+  margin-right: 16.27px;
+}
+
+.unrotate-text {
+  display: inline-block;
+  transform: rotate(3.51deg);
+  font-family: "Gilroy-Bold";
+  font-weight: 800;
+  font-size: 23.6391px;
+}
+
+.bold-text {
+  font-weight: 600;
+  font-family: "Gilroy-Medium";
+}
+
+.highlighted-text {
+  background-color: #4252D1;
+  border-radius: 3px;
+  width: 90px;
+  height: 27px;
+  display: inline;
+}

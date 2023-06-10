@@ -1,0 +1,61 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 252px;
+
+  &__logo {
+    display: flex;
+  }
+
+  &__link {
+    width: 50px;
+    height: 56px;
+
+    &-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 34px;
+    }
+  }
+
+  &__name {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 14px;
+    margin-top: 44.5px;
+  }
+
+  &__meeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44.5px;
+
+    &-date {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 140px;
+      height: 40px;
+      background-color: #302E5A;
+      border-radius: 10px;
+      margin-right: 18px;
+    }
+
+    &-date-img{
+      width: 12.5px;
+      height: 13.75px;
+      margin-right: 7.25px;
+    }
+
+    &-date-text {
+      font-family: "Gilroy-Medium";
+      font-size: 14px;
+      line-height: 14px;
+      font-weight: 600;
+    }
+  }
+}
