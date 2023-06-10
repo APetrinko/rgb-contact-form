@@ -1,18 +1,20 @@
 import React from 'react';
 import worldLogo from '../../styles/icons/world-icon.svg';
+import coach from '../../styles/icons/coach.png';
+import bonus from '../../styles/icons/bonus.png';
 import '../ContactUs/ContactUs.scss';
 
 export const ContactUs = () => {
   return (
     <section className="contact">
       <div className="blur-circle-left"></div>
-      
+
       <div className="blur-circle-right"></div>
-      
+
       <div className="container">
         <div className="information">
           <div className="information__name">
-            <img className="information__name-logo" src={worldLogo} alt="world-icon"/>
+            <img className="information__name-logo" src={worldLogo} alt="world-icon" />
             <p className="information__name-text">Вебінар</p>
           </div>
 
@@ -31,9 +33,25 @@ export const ContactUs = () => {
             </p>
           </div>
 
-          
+          <div className="information__additional">
+            <div className="information__additional-coach">
+              <img src={coach} className="information__additional-coach-img"/>
+              <div className="information__additional-couch-info">
+                <h4>Кирило КАСАТОНОВ</h4>
+                <p>6 років комерційного досвіду з такими команіями як Mercedes-Benz і іншими великими компаніями</p>
+              </div>
+            </div>
+
+            <div className="information__additional-bonus">
+              <img className="information__additional-bonus-img" src={bonus} alt="bonus"/>
+              <div className="information__additional-bonus-info">
+                <h4>Бонус за реєстрацію</h4>
+                <p>PDF-файл "5 переваг фронтенд розробника"</p>
+              </div>
+            </div>
+          </div>
         </div>
-          
+
       </div>
     </section >
   )
