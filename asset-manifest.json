@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/rgb-contact-form/static/css/main.be4fb0bc.css",
+    "main.js": "/rgb-contact-form/static/js/main.1e7aa601.js",
+    "static/js/787.665d5d78.chunk.js": "/rgb-contact-form/static/js/787.665d5d78.chunk.js",
+    "static/media/Gilroy-Medium.ttf": "/rgb-contact-form/static/media/Gilroy-Medium.1c23f810e531d0702f76.ttf",
+    "static/media/Gilroy-Regular.ttf": "/rgb-contact-form/static/media/Gilroy-Regular.fa652e766b6a85a1f9cb.ttf",
+    "static/media/Gilroy-Bold.ttf": "/rgb-contact-form/static/media/Gilroy-Bold.901a60fc2835c74fba67.ttf",
+    "static/media/powercode-icon.svg": "/rgb-contact-form/static/media/powercode-icon.761894d89a4f11a9cb8d6be067975212.svg",
+    "static/media/clock-icon.svg": "/rgb-contact-form/static/media/clock-icon.06319bdbb1d353c24147163bfc631326.svg",
+    "index.html": "/rgb-contact-form/index.html",
+    "static/media/calendar-icon.svg": "/rgb-contact-form/static/media/calendar-icon.41b2b5bb090bc5c0dfc30ace70800293.svg",
+    "main.be4fb0bc.css.map": "/rgb-contact-form/static/css/main.be4fb0bc.css.map",
+    "main.1e7aa601.js.map": "/rgb-contact-form/static/js/main.1e7aa601.js.map",
+    "787.665d5d78.chunk.js.map": "/rgb-contact-form/static/js/787.665d5d78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be4fb0bc.css",
+    "static/js/main.1e7aa601.js"
+  ]
+}
